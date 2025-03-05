@@ -1,4 +1,3 @@
-# Joseph Szabo ReadMe
 <!DOCTYPE html>
 <html>
 <body>
