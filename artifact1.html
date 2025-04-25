@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Artifact 1 – Rescue Animal (Software Design)</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Artifact 1: Rescue Animal – Software Design and Engineering</h1>
+    <a href="index.html">← Back to Portfolio</a>
+  </header>
+
+  <section>
+    <h2>Artifact Description</h2>
+    <p>This project is a Rescue Animal Management System created during my time at SNHU. The original code was enhanced to improve design patterns and modular structure.</p>
+  </section>
+
+  <section>
+    <h2>Original & Enhanced Code</h2>
+    <ul>
+      <li><a href="https://github.com/JosephSzabo/cs-499/tree/main/Enhancement%201%20-%20Software%20Design%20and%20Engineering/Rescue%20Animal%20Original">Original Code</a></li>
+      <li><a href="https://github.com/JosephSzabo/cs-499/tree/main/Enhancement%201%20-%20Software%20Design%20and%20Engineering/Rescue%20Animal%20Enhanced">Enhanced Code</a></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Narrative</h2>
+    <p><strong>Enhancement One: Software Design/Engineering</strong></p>
+    <p>The artifact I chose for the software design enhancement is a project I did for my IT-145: Foundation in Application Development class back in April 2024. It is a Java program for a company called Grazioso Salvare, which trains search and rescue animals like dogs and monkeys. The project tracks the animals’ information, like their name, breed, training status, and whether they are reserved or in service. I created a system that allows users to intake new animals, reserve them, and print a list of animals based on animal type. This was one of the first projects I worked on during my computer science studies.</p>
+    <p>I chose this project for my ePortfolio because it was one of the first big things I did in computer science, and it shows where I started and how far I have come. This project helped me build basic skills in Java, especially with object-oriented programming. I had to create classes, use inheritance, and manage data like animal details and statuses. I also worked on making the program interactive with user input and validating it, which is something I had not done much before.</p>
+    <p>The artifact was significantly improved by adding new functionalities and enhancing its overall structure. One of the key improvements was the introduction of an ID number for each animal, which was essential for identifying and managing individual records. Additionally, I expanded the program's capabilities by adding several menu options that were not available before, including the ability to update animal details, delete animals, and search for animals by name. To make these features possible, I created a new DatabaseHelper.java class, which now handles the core database operations, including inserting, updating, deleting, and fetching animals. This class also ensures that the database is structured properly by creating a table for storing all animal records, making the program more scalable and reliable. Other improvements include refining the way animal data is handled, such as adding specific fields for different animal types (like dogs and monkeys) and ensuring that the program can handle both types correctly. This was done through prepared statements for database queries, improving the security and efficiency of database interactions.</p>
+    <p>I met the goals I set at the start. I worked on designing and implementing a program that met the requirements, like managing animals and handling user input. I also gained a deeper understanding of how to manage data, both in memory with Array Lists and in a database. The only change to my plans would be focusing a little more on improving the user interface and adding some more input validation, such as validating date formats and prompting users to try again if they enter an unrecognized country.</p>
+    <p>Working on this project taught me a lot. At first, I struggled with figuring out how to organize everything and make sure the classes worked together. It was tricky to handle the different data for dogs and monkeys, especially since monkeys and dogs had separate attributes. The hardest part, though, was implementing the CRUD functionalities. I spent a lot of time making sure the data was added correctly, updated when needed, and displayed properly. I also ran into some issues with the database and had to figure out how to handle null values and data mismatches.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Joseph Szabo</p>
+  </footer>
+</body>
+</html>

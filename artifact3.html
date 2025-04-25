@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Artifact 3 – Rescue Animals (Databases)</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Artifact 3: Rescue Animals – Databases</h1>
+    <a href="index.html">← Back to Portfolio</a>
+  </header>
+
+  <section>
+    <h2>Artifact Description</h2>
+    <p>This artifact extends the Rescue Animals system by enhancing the database design, improving data relationships, and using SQL more effectively to manage and retrieve animal data.</p>
+  </section>
+
+  <section>
+    <h2>Original & Enhanced Code</h2>
+    <ul>
+      <li><a href="https://github.com/JosephSzabo/cs-499/tree/main/Enhancement%203%20-%20Databases/Original%20Rescue%20Animals/Project_2_Original">Original Code</a></li>
+      <li><a href="https://github.com/JosephSzabo/cs-499/tree/main/Enhancement%203%20-%20Databases/Enhanced%20Rescue%20Animals/Project_2_Enhanced">Enhanced Code</a></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Narrative</h2>
+    <p><strong>Enhancement Three: Databases</strong></p>
+    <p>The artifact I selected for enhancement is an interactive dashboard built with Python and Dash for Grazioso Salvare, a company that trains search-and-rescue dogs. This project was originally created in my CS-340 class, where I developed a client-facing application that connects to a MongoDB database. The dashboard allows users to filter and visualize data from animal shelters around Austin, Texas, with the goal of identifying dogs best suited for various types of rescue work.</p>
+    <p>I chose this project for my ePortfolio because it demonstrates core skills in software development, including connecting front-end interfaces with back-end databases, implementing real-time data visualization, and building intuitive, user-friendly tools. The enhancements I made showcase further development of these skills and improved the dashboard’s functionality, clarity, and value to the end user.</p>
+    <p>Key improvements included adding two new columns: intake_date and days_in_shelter. Because actual intake dates were not available in the original CSV file, I created a solution to generate realistic, randomized intake dates within a plausible range. I then calculated the number of days each dog spent in the shelter by comparing these generated dates to their outcome dates. This allowed me to provide more meaningful insights for users, such as identifying trends in the length of shelter stays. I also added two radio button filters to the dashboard that trigger the display of new charts. One filter displays an outcome distribution bar chart that breaks down the number of dogs by outcome type, such as adoption, return to owner, euthanasia, or transfer. The other filter displays a distribution chart of dogs based on how long they stayed in the shelter. These insights give users a clearer picture of shelter activity and trends. I implemented these as toggle options so the user interface would stay clean and easy to use.</p>
+    <p>I also refined the existing filter for “All Animals” so that it only returns dogs, aligning with the dashboard’s goal of identifying candidates for dog training. I renamed this option to “All Dogs” to reflect that change. I also cleaned up and refactored the code for readability and efficiency, ensuring that future developers can understand and maintain it more easily.</p>
+    <p>These enhancements align with the outcomes I set in Module One, specifically, to improve usability, deepen data analysis capabilities, and strengthen backend integration. They also align with the Computer Science program outcome goals: applying software development skills to real-world problems, using appropriate tools, and effectively communicating technical ideas.</p>
+    <p>Through this work, I learned to balance technical goals with user experience. Creating the additional columns and charts required thoughtful logic and clean integration with MongoDB. Generating mock data presented a challenge, as did making sure that filters and visualizations updated correctly. Solving these issues sharpened my understanding of interactive applications and backend data handling.</p>
+    <p>Overall, this project now offers a stronger user experience and more meaningful insights. It reflects my growth as a developer and provides a solid representation of my skills in software engineering and database integration, making it an ideal inclusion in my ePortfolio.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Joseph Szabo</p>
+  </footer>
+</body>
+</html>

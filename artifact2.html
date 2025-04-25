@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Artifact 2 – Inventory App (Algorithms & Data Structures)</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Artifact 2: Inventory App – Algorithms & Data Structures</h1>
+    <a href="index.html">← Back to Portfolio</a>
+  </header>
+
+  <section>
+    <h2>Artifact Description</h2>
+    <p>This artifact is an Inventory Management App. It was enhanced to improve the use of data structures, streamline inventory searching, and optimize sorting and filtering logic.</p>
+  </section>
+
+  <section>
+    <h2>Original & Enhanced Code</h2>
+    <ul>
+      <li><a href="https://github.com/JosephSzabo/cs-499/tree/main/Enhancement%202%20-%20algorithms%20and%20data%20structures/Original%20Inventroy%20App/App_Original">Original Code</a></li>
+      <li><a href="https://github.com/JosephSzabo/cs-499/tree/main/Enhancement%202%20-%20algorithms%20and%20data%20structures/Enhanced%20Inventory%20App/JosephSzaboApp">Enhanced Code</a></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Narrative</h2>
+    <p><strong>Enhancement 2: Algorithms and Data Structures</strong></p>
+    <p>The artifact I’m including in my ePortfolio is an inventory management app that I originally developed during my CS-360 Mobile Architecture and Programming course. This app is designed to help users, particularly those in warehousing and logistics, track inventory in real time. Key features include secure login, the ability to add, edit, and delete items, update item quantities, and receive optional text notifications when stock levels are low. The primary goal is to support professionals in keeping inventory accurate, reducing the risk of stockouts, and improving overall efficiency in inventory management.</p>
+    <p>I selected this project for enhancement because it provided a strong foundation to apply more advanced data structure and algorithmic techniques that I’ve developed since the original version. Reworking this app gave me the opportunity to optimize its performance, particularly around how it handles and accesses inventory data. One of the core improvements I made was the use of a HashMap to manage inventory in memory. This allowed for faster lookups and updates without relying heavily on real-time database queries. By batching updates rather than sending them individually, I significantly reduced the number of database calls, which improved both speed and scalability.</p>
+    <p>I also worked on syncing the in-memory data structure with the backend database to maintain consistency, even as the app scales to handle larger inventories. This was a challenge, especially around memory management and ensuring that updates happened at the right times without unnecessary database writes. The result was a more efficient and responsive app, especially during operations involving frequent inventory changes.</p>
+    <p>This enhancement aligns with the course outcomes I set for myself, particularly in optimizing data handling and improving system efficiency. I’m proud of how the updated version handles large data sets more effectively and with greater speed. In the future, I plan to explore additional improvements such as implementing database indexing and adding advanced features like historical inventory trend tracking and smarter notification logic.</p>
+    <p>One of the most valuable lessons I took from this project was understanding the balance between usability and performance. Efficient data management, especially minimizing unnecessary database access, can have a huge impact on an app’s responsiveness and user experience. While the original version had some issues with item display due to syncing delays, I was able to resolve those bugs during this enhancement, ensuring that all added inventory items now appear correctly on the inventory screen.</p>
+    <p>Overall, this experience strengthened my problem-solving abilities and deepened my understanding of how thoughtful data structure design and optimization contribute to building high-quality, scalable applications.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Joseph Szabo</p>
+  </footer>
+</body>
+</html>
